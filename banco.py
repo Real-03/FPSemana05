@@ -1,6 +1,3 @@
-from collections import deque
-
-
 class ContaBancaria:
     Titular = ""
     Saldo = 0
@@ -32,8 +29,6 @@ class ContaBancaria:
     
     def exibir_info(self):
         print(f"{self.titular} {self.saldo:.2f} {self.credit:.2f}") 
-
-    
 
 
 conta = ContaBancaria("João", 1000.00, 500.00)
